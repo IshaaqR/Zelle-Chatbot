@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Greetings", "Aloha"],
+         "responses": ["Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day!", "Bye! Come back again soon!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure."],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, I can't understand you.", "Please give me more info.", "Not sure I understand."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered?", "Help", "Does this work?", "What is this?"],
+         "responses": ["I can answer basic questions regarding Zelle, or I can have a team member call you if needed."],
+         "context": [""]
+        },
+        {"tag": "about",
+         "patterns": ["What is Zelle?", "What can I do with Zelle?", "How do I use Zelle?", "How does Zelle work?", "What is this app?"],
+         "responses": ["Zelle is an easy way to send money directly between almost any U.S. bank accounts typically within minutes. With just an email address or mobile phone number, you can quickly, safely and easily send  and receive money with more people, regardless of where they bank."],
+         "context": [""]
+        },
+        {"tag": "pronounce",
+         "patterns": ["How is zelle pronounced?", "How do you say Zelle?"],
+         "responses": ["Zelle rhymes with \"tell\" - as in tell your friends and family to use Zelle. Phonetic spelling: Zell or /zel/."],
+         "context": [""]
+        },
+        {"tag": "fees",
+         "patterns": ["Are there any fees or charges to send money using Zelle?", "Is Zelle free?", "Does Zelle cost money?", "Will I be charged for using Zelle?", "How much does zelle cost?"],
+         "responses": ["Zelle doesn't charge a fee to send or receive money. We recommend confirming with your bank or credit union that there are no additional fees."],
+         "context": [""]
+        },
+        {"tag": "who",
+         "patterns": ["Who can I send money to?", "Who can I recieve money from?", "Who can I transfer money with?", "Can I transfer money to anyone?", "Can I send money internationally?", "Can I use Zelle for other countries?"],
+         "responses": ["You can send money directly between almost any U.S. bank accounts, as long as you have an email address or mobile phone number."],
+         "context": [""]
+        },
+        {"tag": "time",
+         "patterns": ["How long does it take to receive money?", "How much time does it take to transfer money?", "If I send money when will the other person recieve it?", "How will I know when I will recieve the money?", "Does zelle take a long time to send money?", "Is Zelle fast?"],
+         "responses": ["Money sent with Zelle is typically available to an enrolled recipient within minutes. If it has been more than three days, please confirm you have fully enrolled your Zelle profile, and that you entered the correct email address or number. If you're using Zelle through your bank or credit union's app or website, please check with them for help."],
+         "context": [""]
+        },
+        {"tag": "bank_no_offer",
+         "patterns": ["What if my bank or credit union doesn't offer Zelle?", "Can I use still use Zelle if my bank or credit union doesn't have it?"],
+         "responses": ["Our network of participating financial institutions is always growing, and you can always use Zelle by downloading the Zelle app for Android and iOS."],
+         "context": [""]
+        },
+        {"tag": "cancel",
+         "patterns": ["Can I cancel a payment?", "How do I cancel a payment?", "What if I made a mistake or accident when sending money?", "What if I sent the wrong amount?", "What if I sent to the wrong email or phone number?"],
+         "responses": ["You can only cancel a payment if the recipient hasn't yet enrolled with Zelle. You can go to your activity page within the Zelle experience, either within your mobile banking app or the Zelle app, choose the payment you want to cancel, and then select \"Cancel This Payment.\" If your recipient has already enrolled with Zelle, the money is sent directly to your recipient's bank account and cannot be canceled."],
+         "context": [""]
+        },
+        {"tag": "smartphone",
+         "patterns": ["Can I access Zelle to send or receive money without a smartphone or phone?", "Do I need a smartphone or phone to use Zelle?", "Can I use Zelle online or on my computer?", "Can I use Zelle without a phone or smartphone?"],
+         "responses": ["If your bank or credit union offers Zelle, you may be able to use their online banking site to send and receive money without a mobile device. If your bank or credit union does not offer Zelle, then you must have a smartphone in order to access the Zelle app to send and receive money."],
+         "context": [""]
+        },
+        {"tag": "call",
+         "patterns": ["Can I speak to someone?", "Can I talk to a real person?", "Call a team member", "Contact help desk", "Can I talk to customer support?"],
+         "responses": ["Sure, I'll put you in touch with a team member. Please provide a phone number you would like to be called on."],
+         "context": ["phone"]
+        },
+        {"tag": "phone",
+         "patterns": [],
+         "responses": ["Thank you, a team member will call you shortly."],
+         "context": [""]
+        },
+        {"tag": "notification",
+         "patterns": ["Will the person I send money to be notified?", "How do i know if my money was sent?", "How will I know if they got the money?"],
+         "responses": ["The recipient will receive a notification via email or text message by Zelle or by their bank or credit union."],
+         "context": [""]
+        }
+   ]
+}
