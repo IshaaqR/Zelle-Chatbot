@@ -1,6 +1,6 @@
 # Zelle-Chatbot
 This repository contains the source code to create a Zelle chatbot, which can
-answer basic FAQs (the ones here: https://www.zellepay.com/faq/about-zelle)
+answer basic FAQs (found here: https://www.zellepay.com/faq/about-zelle)
 as well as contact customer support. The steps for this task consisted of
 creating an intents file (of intents, patterns, responses, and context),
 data preparation (processing the intents file to be used for training),
