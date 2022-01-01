@@ -1,5 +1,5 @@
 # Zelle-Chatbot
-## About
+### About
 This repository contains the source code to create a Zelle chatbot, which can
 answer basic FAQs (inspired from the ones found here: https://www.zellepay.com/faq/about-zelle)
 as well as contact customer support. The steps for this task consisted of
@@ -7,9 +7,10 @@ creating an intents file (of intents, patterns, responses, and context),
 data preparation (processing the intents file to be used for training),
 building the deep learning model, and creating a GUI.
 
-## Running the chatbot
+### Running the chatbot
 To use this chatbot yourself, first download intents.json, train_chatbot.ipynb,
-and gui_chatbot.ipynb. Run train_chatbot.ipynb to build the model, then
+and gui_chatbot.ipynb (the other files do not make a difference as they will be
+generated when the model is trained). Run train_chatbot.ipynb to build the model, then
 run gui_chatbot.ipynb to start up the chatbot. If you do not see the chatbot window
 pop up, check your taskbar to see if a new icon has popped up for the chatbot
 window.
