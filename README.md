@@ -5,7 +5,8 @@ answer basic FAQs (inspired from the ones found here: https://www.zellepay.com/f
 as well as contact customer support. The steps for this task consisted of
 creating an intents file (of intents, patterns, responses, and context),
 data preparation (processing the intents file to be used for training),
-building the deep learning model, and creating a GUI.
+building the deep learning model in Keras with TensorFlow as the backend,
+and creating a GUI.
 
 ### Running the chatbot
 To use this chatbot yourself, first download intents.json, train_chatbot.ipynb,
